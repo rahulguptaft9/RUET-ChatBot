@@ -61,7 +61,7 @@ options {
 	
 		  steps {
             sshagent(['k8']) {
-		  //sh "scp -o StrictHostKeyChecking=no rahul.yaml ubuntu@172.31.46.45:/home/ubuntu"
+		  sh "scp -o StrictHostKeyChecking=no aaaa.yaml cdac@10.10.7.73:/"
                 script{
 			try{
                 sh "ssh cdac@10.10.7.73  kubectl apply -f aaaa.yaml"
