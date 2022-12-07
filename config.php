@@ -1,9 +1,9 @@
 <?php
 
-$host="localhost";
+$host="10.10.7.74";
 $user="root";
-$pass="password";
-$db="chat";
+$pass="a1a1A!A!";
+$db="dcapp";
 
 $con=mysqli_connect($host,$user,$pass,$db);
 
@@ -14,7 +14,7 @@ if(!$con)
 }
 else
 {
-	//echo("Connected");
+	echo("Connected");
 }
 
 
